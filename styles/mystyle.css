@@ -16,11 +16,12 @@ footer{
   background:#555;
   width:100%;
   height:5%;
-  position:absolute;
+  position:fixed;;
   bottom:0;
   left:0;
   text-align: center;
   color: #DDD;
+  margin-top: 100px;
 }
 
 .wrapper{
@@ -28,6 +29,7 @@ footer{
 	margin:auto;;
   color: black;
   vertical-align: middle;
+  margin:bottom:100px;
 }
 
 #go{
@@ -53,4 +55,19 @@ footer{
   color: #444;
   width:200px;
   margin-left:25px;
+}
+
+.option{
+  width: 80%;
+  background-color: #DDD;
+  color: #555;
+  margin:auto;
+  padding:5px;
+  height: 120px;
+  margin-bottom:20px;
+}
+
+.option:hover{
+  margin-left: 12%;
+  text-decoration: none;
 }
